@@ -11,6 +11,7 @@ import BindEvent from './Components/BindEvent';
 import Parent from './Components/Parent';
 import Condition from './Components/Condition';
 import Lists from './Components/Lists';
+import MyStyle from './Components/MyStyle/MyStyle';
 function App() {
   return (
     <div className="App">
@@ -50,6 +51,9 @@ function App() {
 
       {/* list Rendering & keys */}
       {/* <Lists/> */}
+
+      {/* css in React js */}
+      <MyStyle/>
     </div>
   );
 }
