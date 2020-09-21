@@ -54,8 +54,8 @@ function App() {
       {/* <Lists/> */}
 
       {/* css in React js */}
-      {/* <MyStyle/> */}
-      <Form/>
+      <MyStyle/>
+      {/* <Form/> */}
     </div>
   );
 }

@@ -14,9 +14,10 @@ const MyStyle = () => {
     textAlign: `center`,
     fontSize: '30px'
    }
+   let result=true;
     return (
         <div style={{fontSize:'30px'}}>
-            <h2>Using CSS in React</h2>
+            <h2 className={result?'color':''}>Using CSS in React</h2>
             <h6 className={style.font}>CSS StyleSheets</h6>
             <h6>Inline Styles</h6>
             <h5>CSS Modules</h5>
