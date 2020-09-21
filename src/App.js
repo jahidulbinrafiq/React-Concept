@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {Message} from './Components/Functional';
 import Stateful from './Components/Stateful';
 import NavBar from './Components/Navbar';
@@ -50,7 +49,7 @@ function App() {
       {/* <Condition/> */}
 
       {/* list Rendering & keys */}
-      <Lists/>
+      {/* <Lists/> */}
     </div>
   );
 }
