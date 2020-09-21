@@ -11,6 +11,7 @@ import ClickTwo from './Components/ClickTwo';
 import BindEvent from './Components/BindEvent';
 import Parent from './Components/Parent';
 import Condition from './Components/Condition';
+import Lists from './Components/Lists';
 function App() {
   return (
     <div className="App">
@@ -46,7 +47,10 @@ function App() {
       {/* <Parent/> */}
 
       {/*Conditional Rendering */}
-      <Condition/>
+      {/* <Condition/> */}
+
+      {/* list Rendering & keys */}
+      <Lists/>
     </div>
   );
 }
