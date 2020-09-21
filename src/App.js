@@ -12,6 +12,7 @@ import Parent from './Components/Parent';
 import Condition from './Components/Condition';
 import Lists from './Components/Lists';
 import MyStyle from './Components/MyStyle/MyStyle';
+import Form from './Components/Form'
 function App() {
   return (
     <div className="App">
@@ -53,7 +54,8 @@ function App() {
       {/* <Lists/> */}
 
       {/* css in React js */}
-      <MyStyle/>
+      {/* <MyStyle/> */}
+      <Form/>
     </div>
   );
 }
