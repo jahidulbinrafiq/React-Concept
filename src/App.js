@@ -14,6 +14,7 @@ import Lists from './Components/Lists';
 import MyStyle from './Components/MyStyle/MyStyle';
 import Form from './Components/Form'
 import ComponentA from './Components/Mounting_Phase/ComponentA';
+import UpdatePhase from './Components/UpdatePhase/UpdatePhase';
 function App() {
   return (
     <div className="App">
@@ -60,7 +61,9 @@ function App() {
       {/* <Form/> */}
 
       {/* life cycle method in component */}
-      <ComponentA/>
+      {/* <ComponentA/> */}
+
+      <UpdatePhase/>
     </div>
   );
 }

@@ -5,7 +5,6 @@
 // 4)componentDidMount
 
 
-import { render } from '@testing-library/react'
 import React,{Component} from 'react'
 import ComponentB from './ComponentB'
 
