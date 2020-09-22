@@ -15,6 +15,7 @@ import MyStyle from './Components/MyStyle/MyStyle';
 import Form from './Components/Form'
 import ComponentA from './Components/Mounting_Phase/ComponentA';
 import UpdatePhase from './Components/UpdatePhase/UpdatePhase';
+import ComponenUNtA from './Components/UnMountPhase/ComponentUNA';
 function App() {
   return (
     <div className="App">
@@ -63,7 +64,9 @@ function App() {
       {/* life cycle method in component */}
       {/* <ComponentA/> */}
 
-      <UpdatePhase/>
+      {/* <UpdatePhase/> */}
+
+      <ComponenUNtA/>
     </div>
   );
 }
