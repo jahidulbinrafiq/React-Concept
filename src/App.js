@@ -17,9 +17,11 @@ import UpdatePhase from './Components/UpdatePhase/UpdatePhase';
 import ComponenUNtA from './Components/UnMountPhase/ComponentUNA';
 import ParentError from './Components/ErrorPhase/Parent';
 import Table from './Components/Fragments/Table';
+import PureComponent from './Components/PureComponent/PureComponentImplementation';
+import MemoA from './Components/Memo/MemoA';
 function App() {
   return (
-    <div>
+    <div className='App'>
       {/* <Message name='jamal' age='23' >
         this is props children
       </Message>
@@ -73,8 +75,14 @@ function App() {
   {/* life cycle method in component end */}
 
           {/* Fragments */}    
-          <Table/>
+          {/* <Table/> */}
 
+          {/* Pure Component */}
+
+          {/* <PureComponent/> */}
+
+          {/* Using Memo  */}
+          <MemoA/>
     </div>
   );
 }
