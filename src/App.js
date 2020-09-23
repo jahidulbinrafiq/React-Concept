@@ -16,9 +16,10 @@ import ComponentA from './Components/Mounting_Phase/ComponentA';
 import UpdatePhase from './Components/UpdatePhase/UpdatePhase';
 import ComponenUNtA from './Components/UnMountPhase/ComponentUNA';
 import ParentError from './Components/ErrorPhase/Parent';
+import Table from './Components/Fragments/Table';
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <Message name='jamal' age='23' >
         this is props children
       </Message>
@@ -61,14 +62,19 @@ function App() {
 
       {/* <Form/> */}
 
-      {/* life cycle method in component */}
+ {/* life cycle method in component start */}
       {/* <ComponentA/> */}
 
       {/* <UpdatePhase/> */}
 
       {/* <ComponenUNtA/> */}
 
-      <ParentError/>
+      {/* <ParentError/> */}
+  {/* life cycle method in component end */}
+
+          {/* Fragments */}    
+          <Table/>
+
     </div>
   );
 }
