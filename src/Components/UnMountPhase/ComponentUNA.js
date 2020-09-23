@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import ComponentUNB from './ComponentUNB';
 
-
 class ComponenUNtA extends Component{
     constructor(props){
         super()

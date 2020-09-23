@@ -8,7 +8,6 @@ import CarTWo from './Components/CarTWo';
 import ClickOne from './Components/ClickOne';
 import ClickTwo from './Components/ClickTwo';
 import BindEvent from './Components/BindEvent';
-import Parent from './Components/Parent';
 import Condition from './Components/Condition';
 import Lists from './Components/Lists';
 import MyStyle from './Components/MyStyle/MyStyle';
@@ -16,6 +15,7 @@ import Form from './Components/Form'
 import ComponentA from './Components/Mounting_Phase/ComponentA';
 import UpdatePhase from './Components/UpdatePhase/UpdatePhase';
 import ComponenUNtA from './Components/UnMountPhase/ComponentUNA';
+import ParentError from './Components/ErrorPhase/Parent';
 function App() {
   return (
     <div className="App">
@@ -66,7 +66,9 @@ function App() {
 
       {/* <UpdatePhase/> */}
 
-      <ComponenUNtA/>
+      {/* <ComponenUNtA/> */}
+
+      <ParentError/>
     </div>
   );
 }
