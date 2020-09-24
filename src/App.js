@@ -19,6 +19,7 @@ import ParentError from './Components/ErrorPhase/Parent';
 import Table from './Components/Fragments/Table';
 import PureComponent from './Components/PureComponent/PureComponentImplementation';
 import MemoA from './Components/Memo/MemoA';
+import ButtonHide from './Components/ButtonHide/ButtonHide';
 function App() {
   return (
     <div className='App'>
@@ -82,7 +83,9 @@ function App() {
           {/* <PureComponent/> */}
 
           {/* Using Memo  */}
-          <MemoA/>
+          {/* <MemoA/> */}
+
+          <ButtonHide/>
     </div>
   );
 }
