@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import AnotherComponent from './AnotherComponent';
 
 const ButtonHide = () => {
-    let isOpen=false;
-    let[hide,setHide]=useState(isOpen)
+    let[hide,setHide]=useState(false)
     return (
         <>
             {
-               hide && <AnotherComponent/>
+              hide && <AnotherComponent/>
             }
-            <button onClick={()=> { hide?setHide(!hide): setHide(!isOpen)}}>OpenDoor</button>
+            <button onClick={()=>{setHide(!hide)}}>Click Here</button>
         </>
     );
 };
